@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'pages/myactionbutton.dart';
 import 'pages/mybottombar.dart';
+import 'pages/foodlistview.dart';
+import 'pages/selecttypesection.dart';
+import 'pages/menuitemlist.dart';
+import 'pages/myappbar.dart';
 
 
 void main() {
@@ -41,9 +45,9 @@ class ProjectPage extends StatelessWidget {
             SizedBox(height: 16.0,),
             FoodListView(),
             SizedBox(height: 16.0,),
-            SelectTypeSelection(),
+            SelectTypeSection(),
             SizedBox(height: 16.0,),
-            MenuItemList(),
+            MenuItemsList(),
       ],
       ),
       ),
